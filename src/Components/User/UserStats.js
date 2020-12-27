@@ -6,6 +6,7 @@ import Head from '../Helper/Head'
 import Loading from '../Helper/Loading';
 const UserStatsGraphs = React.lazy(() => import('./UserStatsGraphs'))
 
+
 const UserStats = () => {
     const {data, loading, error, request} = useFetch();
 
